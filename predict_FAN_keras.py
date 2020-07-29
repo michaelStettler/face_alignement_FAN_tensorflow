@@ -56,4 +56,13 @@ for i in range(68):
 # save image
 cv2.imwrite('test/'+ config['config_name'] +'_hm_preds.jpg', cv2.cvtColor(inp.astype('uint8'), cv2.COLOR_RGB2BGR))
 
+# # get depths preds
+# depths_img = cv2.resize(img, dsize=(64, 64), interpolation=cv2.INTER_LINEAR)  # resize picture to match heatmap sizes
+# # concatenate image and heatmaps
+# depth_img = np.expand_dims(np.concatenate((depths_img, heatmaps[0]), axis=2), axis=0)  # create batch of one
+# depths = self.depths.predict(depth_img)
+#
+# # concatenate to 3D
+# preds = np.concatenate((preds, np.expand_dims(depths, axis=2)), axis=2)
+
 
