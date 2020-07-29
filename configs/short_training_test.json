@@ -1,0 +1,9 @@
+{
+    "config_name": "short_training_test",
+    "network_size": 1,
+    "batch_size": 32,
+    "num_epoch": 2,
+    "lr": [0.001, 0.001],
+    "schedule": [0],
+    "csv_file": "csv/114.csv"
+}
