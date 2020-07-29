@@ -20,7 +20,7 @@ The script also uses json configuration file where you can change the path to yo
 
 The weights for s3fd are provided
 
-Example:
+## Examples
 
 <img src='examples/0005_lmk.jpg' height="220"> <img src='examples/indoor_068_lmk.jpg' height="220">
 
