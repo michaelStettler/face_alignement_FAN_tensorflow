@@ -6,6 +6,8 @@ dataset of 230,000 3D facial landmarks) paper (https://github.com/1adrianb/face-
 Please contact me if you are interested to get my weights. The scripts to train the depths networks and the FAN networks are provided. 
 The weights for s3fd are provided
 
+UPDATE: face-alignment is now accesible from Adrian Bullat with git: pip install face-alignment
+
 ## Training:
 ```
   train_FAN_keras.py
